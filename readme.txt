@@ -3,13 +3,4 @@ first run this
  then run this 
         valgrind ./main stock.dat coins.dat
 
-// Install valgrind to check  for memory leaks 
-     step 1:
-              sudo apt update
-
-     step 2:
-              sudo apt install valgrind
-     step 3:
-              valgrind --version
-
 
