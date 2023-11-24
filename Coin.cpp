@@ -67,15 +67,10 @@ void Coin::printCoins() {
     std::cout << "------------------------" << std::endl;
 
     std::string denomStr;
-    unsigned denomVal;
     int temp = 0;
 
     // Iterate through the denominations and print out the counts
     for (int i = 0; i < 8; i++) {
-        denomVal = pow(10, i + 1);
-        if (i < 2) {
-            denomVal /= 2;
-        }
 
         if (i == 0) {
             denomStr = "5 cents";
