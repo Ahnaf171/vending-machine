@@ -1,6 +1,1 @@
-first run this 
-        g++ -Wall -Werror -std=c++14 -O -o main ppd.cpp LinkedList.cpp Node.cpp Coin.cpp 
- then run this 
-        valgrind ./main stock.dat coins.dat
-
-
+A simulated vending machine. You can set the products, the number of notes of each denominations you want and the stock of each product. The program simulates transactions as well and will keep note of the number of notes of each denominatioins given and taken during the transactions and keep count. Users will be able to see this inventpry management.
